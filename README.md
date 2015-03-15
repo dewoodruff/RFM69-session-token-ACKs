@@ -1,4 +1,8 @@
 # RFM69-session-token-ACKs
+
+NOTE: this method is inefficient as the session logic is being implemented in the sketch. It certainly works, but a better method is to use my RFM69 library extension located here: https://github.com/dewoodruff/RFM69_SessionKey
+
+
 tl;dr - Proof of concept sketches that implement a session key to prevent replay attacks using the LowPowerLab RFM69 wireless library for Arduino. The library can be found here: https://github.com/LowPowerLab/RFM69
 
 The RFM69 library was lacking one critical piece - being able to prevent wireless replay attacks. 
